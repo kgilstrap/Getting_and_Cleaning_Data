@@ -25,9 +25,13 @@ activity_labels.txt
   
 this function will import the data from the prereq files above and combine the test and train data sets 
 into one unified set
-the data set is output to the file combined_data.txt in the working directory
-it will also return the data set for further computation if required
-the source code contains minor documentation to explain each processing section as it occurs sequentially
+
+the data set is output to the file combined_data.txt in the working directory.
+
+it will also return the data set for further computation if required.
+
+the source code contains minor documentation to explain each processing section as it occurs sequentially.
+
 the output format contains headers and follows:
 
 Subject
@@ -168,12 +172,17 @@ fBodyBodyGyroJerkMag.std
 
 
 ##run_analysis.R
-this file sits in the same working directory as combine_data.R
-it will source combine_data.R to pull the required data
-it provides the mean aggregate columns for the data on subject and activity
+this file sits in the same working directory as combine_data.R.
+
+it will source combine_data.R to pull the required data.
+
+it provides the mean aggregate columns for the data on subject and activity.
+
 it outputs the results to aggregated_avg_data.txt in the working directory and returns the results for further computation if
-required
-the source code contains minor documentation to explain each processing section as it occurs sequentially
+required.
+
+the source code contains minor documentation to explain each processing section as it occurs sequentially.
+
 the output format follows:
 
   Subject
