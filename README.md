@@ -5,7 +5,7 @@ The following linked documentation model was developed and used to map data file
 
 two R source files were created:
 
-##run_analysis.R
+##combine_data.R
 this files sits in the working directory with the following structure:
 test\subject_test.txt
 
@@ -167,9 +167,9 @@ fBodyBodyGyroJerkMag.mean
 fBodyBodyGyroJerkMag.std
 
 
-##combined_avg.R
-this file sits in the same working directory as run_analysis.R
-it will source run_analysis.R to pull the required data
+##run_analysis.R
+this file sits in the same working directory as combine_data.R
+it will source combine_data.R to pull the required data
 it provides the mean aggregate columns for the data on subject and activity
 it outputs the results to aggregated_avg_data.txt in the working directory and returns the results for further computation if
 required
