@@ -48,3 +48,4 @@ aggdata = aggregated average for combined_data columns on subject and activity
 
 columns = used to clean up column names for aggdata to ready it for output
 
+#see features_info.txt for help clarifying output data
