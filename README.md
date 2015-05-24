@@ -322,3 +322,5 @@ the output format follows:
   fBodyBodyGyroJerkMag.mean.avg
   
   fBodyBodyGyroJerkMag.std.avg
+
+#see features_info.txt for help clarifying output data
