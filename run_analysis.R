@@ -76,7 +76,7 @@ run_analysis <- function()
   #-----------------------------------------------------------------------------------------------------  
   
   #include the run_analysis function to get the combined data set see documentation for run_analysis.R
-  print("importing run_analysis.R...")
+  print("importing combine_data.R...")
   source("combine_data.R")
   
   #read in combined data from run_analysis
