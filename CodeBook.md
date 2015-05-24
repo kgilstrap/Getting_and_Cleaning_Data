@@ -1,6 +1,6 @@
 #CodeBook.md
 
-##run_analysis.R
+##combine_data.R
 
 features = data from features.txt
 
@@ -40,7 +40,7 @@ columns = used to clean up column names for combined_data to ready it for output
 
 
 
-##combined_avg.R
+##run_analysis.R
 
 combined_data = imported data from run_analysis
 
